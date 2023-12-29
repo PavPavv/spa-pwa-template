@@ -1,0 +1,28 @@
+.btn {
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.primary {
+  color: #0d276e;
+  background: orange;
+}
+
+.secondary {
+  color: orange;
+  background: #0d276e;
+}
+
+.action {
+  color: orange;
+  background: #00868a;
+}

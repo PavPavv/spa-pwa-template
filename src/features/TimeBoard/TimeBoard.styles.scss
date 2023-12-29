@@ -1,0 +1,20 @@
+.timer {
+  border-radius: 8px;
+  padding: 15px;
+  background: #ffffff;
+
+  .timer__panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 30px;
+    background: #0d276e;
+
+    .time {
+      font-size: 60px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+  }
+}
