@@ -27,5 +27,7 @@
       "sizes": "812x1740",
       "type": "image/png"
     }
-  ]
+  ],
+  "__prefer_related_applications__": "https://developer.mozilla.org/en-US/docs/Web/Manifest/prefer_related_applications",
+  "__related_applications__": "https://developer.mozilla.org/en-US/docs/Web/Manifest/related_applications"
 }

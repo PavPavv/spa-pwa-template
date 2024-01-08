@@ -9,6 +9,7 @@ const MainPage = (): JSX.Element => {
         style={{ maxWidth: 700, margin: '0 auto', padding: '50px 0 0 0' }}
       >
         <h1>Main page</h1>
+        <h2>PWA</h2>
         <BigTimer />
       </section>
     </div>
