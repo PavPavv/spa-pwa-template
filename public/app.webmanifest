@@ -1,21 +1,21 @@
 {
-  "name": "todo-pwa",
-  "short_name": "tpwa",
+  "name": "Самый популярный сайт - Куча всего! | Tabassky.site",
+  "short_name": "Tabassky",
   "description": "Test pwa app",
   "start_url": "./?utm_source=pwa",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#BB84E8",
+  "theme_color": "#454545",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "favicon-16x16.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "192x192"
     },
     {
-      "src": "icon.png",
+      "src": "favicon-32x32.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
