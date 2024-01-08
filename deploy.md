@@ -52,16 +52,16 @@ Then replace it with:
 
 ```bash
 server {
-  listen 80 default_server
-  listen [::]:80 default_server
+  listen 80 default_server;
+  listen [::]:80 default_server;
 
-  root /var/www/build
-  index index.html  index.htm index.nginx-debian.html
+  root /var/www/build;
+  index index.html  index.htm index.nginx-debian.html;
 
   server_name _;
 
   location / {
-    try_files $uri $uri/ =404
+    try_files $uri $uri/ /index.html
   }
 }
 ```
@@ -83,3 +83,27 @@ npm run build
 ```bash
 sudo service nginx restart
 ```
+
+Or
+
+```bash
+nginx -s reload
+```
+
+Try public ip from the host in order to get to your site
+
+## 7. Optimize bundle and static files size with nginx
+
+Comment out gzip-lines after "gzip on;" line at /etx/nginx/nginx/config
+
+## 8. But domen name and bind it the A-type records and public ip via domen provider
+
+## 9. Add https certificate
+
+- [Let\'s encrypt instruction](https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal)
+
+---
+
+Full tutorial:
+
+[ru_tutorial](https://selectel.ru/blog/tutorials/deploy-with-nginx/?utm_source=youtube.com&utm_medium=referral&utm_campaign=help_deploy-with-nginx_210823_ulbi-tv_paid)
